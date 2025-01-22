@@ -2,8 +2,6 @@
 #scatter plot using x1 and y1 
 plot(x1, y1, main = "X vs Y", xlab = 'Xnumbers', ylab = 'Ynumbers', mtext(side = 3, text = paste(cor(x1, y1))), col = 'purple', pch = 19)
 
-C:\Users\Owolabi Oluwatosin\Documents\Rplot03.png
-
 #calculating correlation coefficient 
 cor(x1, y1, method = 'pearson')
 
