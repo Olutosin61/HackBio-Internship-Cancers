@@ -2,6 +2,7 @@
 #scatter plot using x1 and y1 
 plot(x1, y1, main = "X vs Y", xlab = 'Xnumbers', ylab = 'Ynumbers', mtext(side = 3, text = paste(cor(x1, y1))), col = 'purple', pch = 19)
 
+C:\Users\Owolabi Oluwatosin\Documents\Rplot03.png
 
 #calculating correlation coefficient 
 cor(x1, y1, method = 'pearson')
@@ -15,3 +16,5 @@ boxplot(y1, xlab = 'y1',ylab = 'Frequency') boxplot(x1, y1) boxplot(x1, y1, hori
 par(mfrow=c(2,1)) boxplot(x1, y1) hist(x1)
 
 par(mfrow=c(1,2)) boxplot(x1, y1, main = 'Boxplot(x1,y1') hist(x1)
+
+Link to images: https://drive.google.com/file/d/1OQOdqqzxoq7ZXU3d6fV4w032T8mNc0BU/view?usp=drive_link
