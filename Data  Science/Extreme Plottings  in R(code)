@@ -2,6 +2,11 @@
 #scatter plot using x1 and y1 
 plot(x1, y1, main = "X vs Y", xlab = 'Xnumbers', ylab = 'Ynumbers', mtext(side = 3, text = paste(cor(x1, y1))), col = 'purple', pch = 19)
 
+(https://github.com/user-attachments/assets/e345a4b7-f3cb-405b-8577-105e31bb2290)
+(https://github.com/user-attachments/assets/c3b6ef75-c560-4b18-b3c6-bf88e1e4ce6c)
+(https://github.com/user-attachments/assets/beb4564c-76d7-433f-a261-a4399eaf6088)
+
+
 #calculating correlation coefficient 
 cor(x1, y1, method = 'pearson')
 
